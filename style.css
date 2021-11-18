@@ -1,0 +1,38 @@
+body {
+  background-image: url(images/Baggrund.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.logo {
+  width: 40em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: gray;
+  padding: 1em;
+  justify-content: space-evenly;
+  margin: 0%;
+}
+
+li {
+  border: black solid 2px;
+  padding: 1em;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: black solid 0px 0px 0px 0px;
+}
